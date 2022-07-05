@@ -20,7 +20,7 @@ after_success:
 
   - docker push chan9708/docker-frontend
   - docker push chan9708/docker-backend
-  - docker push chan9708/docker-nginx
+  - docker push chan9708/docker-nginx 
 
 deploy:
   provider: elasticbeanstalk
