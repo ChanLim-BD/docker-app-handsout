@@ -23,6 +23,7 @@ after_success:
   - docker push chan9708/docker-nginx 
 
 deploy:
+  edge: true
   provider: elasticbeanstalk
   region: "us-west-1"
   app: "docker-app-handsout"
